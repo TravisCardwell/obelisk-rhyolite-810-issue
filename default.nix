@@ -5,6 +5,7 @@
     config.android_sdk.accept_license = true;
     terms.security.acme.acceptTerms = true;
     reflex-platform-func = import ./dep/reflex-platform;
+    useGHC810 = true;
   }
 }:
 with obelisk;
